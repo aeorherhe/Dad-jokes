@@ -1,0 +1,97 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* general variables */
+  --boxShadow: 0 0 5px rgb(250, 234, 230);
+  --boxShadow2: 0px 0px 20px 0px rgba(92, 90, 90, 0.2);
+  --transition: all 0.3s linear;
+  --transition2: all 0.5s linear;
+  --border: 2px solid rgb(96, 137, 170);
+  --border2: 2px solid rgb(28, 28, 192);
+  --border3: 2px solid rgb(9, 224, 88);
+  --background: hsl(210, 36%, 96%);
+
+  /* variables for this project */
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  display: grid;
+  font-family: "Overpass", "Open Sans", Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
+  background: var(--background);
+}
+
+.wrapper {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.5rem;
+  background: var(--White);
+  box-shadow: var(--boxShadow2);
+  max-width: 45rem;
+}
+
+.random-jokes {
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  /* border: none; */
+  border: var(--border);
+  outline: none;
+  background: var(--background);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* footer styles */
+.my-profile {
+  background-color: rgba(96, 137, 170);
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.my-profile > a {
+  cursor: pointer;
+  color: hsl(51, 79%, 45%);
+  text-decoration: none;
+}
+
+.my-profile-icons a {
+  cursor: pointer;
+  color: var(--White);
+  display: inline-block;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .my-profile {
+    font-size: 12px;
+  }
+
+  .my-profile-icons a:first-of-type,
+  .my-profile-icons a:last-of-type {
+    display: none;
+  }
+}
