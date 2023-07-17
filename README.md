@@ -1,11 +1,11 @@
-# John Smilga Course -
+# John Smilga Course - Random Dad Jokes
 
 ## Welcome! 👋
 
 ### Links
 
-- Solution URL: [solution](https://github.com/aeorherhe/tip-calculator-app-main.git)
-- Live Site URL: [live site](https://aeorherhe-tip-calculator-app.netlify.app/)
+- Solution URL: [solution](https://github.com/aeorherhe/Dad-jokes.git)
+- Live Site URL: [live site](https://aeorherhe-random-dad-jokes.netlify.app/)
 
 ### Built with
 
